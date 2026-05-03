@@ -1,24 +1,41 @@
-# todo-app
+# Todo App – Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+Une application Todo simple développée avec Vue.js.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Fichiers importants
 
-## Recommended Browser Setup
+### Présentation
+Le fichier `presentation.pptx` contient les slides de présentation du projet,
+incluant l'architecture, les composants Vue utilisés et les fonctionnalités de l'application.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+### Explication du code
+Le fichier `explication du code.pdf` détaille le fonctionnement du code source,
+avec des explications sur chaque composant et la logique de l'application.
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Structure du projet
 
+Le dossier `src` contient l'ensemble du code source de l'application :
+
+- `components/` : les composants Vue réutilisables de l'application
+  - `TodoForm.vue` : le formulaire permettant d'ajouter une nouvelle tâche
+  - `TodoItem.vue` : le composant représentant une tâche individuelle
+  - `TodoList.vue` : le composant affichant la liste complète des tâches
+- `App.vue` : le composant racine qui regroupe tous les composants de l'application
+- `main.js` : le point d'entrée de l'application, initialise Vue et monte l'application
+
+---
+
+## Technologies utilisées
+
+- Vue.js
+- Vite
+- JavaScript / HTML / CSS
+
+---
 ## Project Setup
 
 ```sh
